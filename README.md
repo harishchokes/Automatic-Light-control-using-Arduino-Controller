@@ -63,14 +63,15 @@ LDR Features of LDR are as follows:
 
 
 ## PROGRAM:
-
 ```
 int sensorPin = A0; // select the input pin for the LDR
 int sensorValue = 0; // variable to store the value coming from the sensor
 int led = 13;
 void setup() { // declare the ledPin as an OUTPUT:
 pinMode(led, OUTPUT);
-Serial.begin(9600); }
+Serial.begin(9600);
+ }
+
 void loop()
 {
 sensorValue = analogRead(sensorPin);
@@ -90,12 +91,12 @@ delay(1000);
 }
 ```
 ## CIRCUIT DIAGRAM:
-![WhatsApp Image 2025-08-25 at 10 32 00_3ab66361](https://github.com/user-attachments/assets/b35dd948-e162-4bf9-8521-4b7e47d5d4b9)
+<img width="1908" height="1115" alt="Screenshot 2025-10-01 085419" src="https://github.com/user-attachments/assets/6064058b-25a6-42ce-977e-c237356614bb" />
+
 
 ## OUTPUT:
-<img width="1919" height="1069" alt="Screenshot 2025-08-28 131807" src="https://github.com/user-attachments/assets/7921e63a-5965-4140-b3b5-58e378629410" />
+<img width="1916" height="1115" alt="Screenshot 2025-10-01 085342" src="https://github.com/user-attachments/assets/3987558b-a346-4c76-9b4d-c5b6e6370c6c" />
 
-<img width="1917" height="1078" alt="Screenshot 2025-08-28 131829" src="https://github.com/user-attachments/assets/676bd694-5969-489e-a2d8-d39c193183c9" />
 
 ## RESULT:
 Thus the automatic light controller was designed and simulated using LDR and Arduino UNO controller.
